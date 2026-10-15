@@ -1,0 +1,12 @@
+pycache/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+
+*.bak
+*.clean_backup
+.DS_Store
+Thumbs.db
