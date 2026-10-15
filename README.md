@@ -55,3 +55,5 @@ An autonomous Python & C++ suite for PC that provides native, direct integration
 2. Place `hidapi.dll`, Python scripts, and the `.bat` file into your working directory (e.g., `C:\ETS2_DualSense`).
 3. In Steam, right-click ETS 2 → Properties → Controller → Set to **"Disable Steam Input"**.
 4. Run **`start_ets2_dualsense.bat`**.
+
+Buy Me a Coffee boosty.to/maghoul/donate
