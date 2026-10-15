@@ -32,7 +32,6 @@
 2. **Файлы скрипта:** Положите `hidapi.dll`, `requirements.txt`, `config_patcher.py`, `dualsense_ets2.py` и `start_ets2_dualsense.bat` в общую рабочую папку (например, `C:\ETS2_DualSense`).
 3. **Настройки Steam:** Откройте Библиотеку Steam → ПКМ по ETS 2 → Свойства → Контроллер → Выберите **«Отключить систему ввода Steam»**.
 4. **Запуск:** Подключите геймпад и запустите **`start_ets2_dualsense.bat`**.
-5. **В игре:** Включите созданный мод `DualSense Controller Native UI Labels (1.61)` в Менеджере модов и настройте оси в меню управления.
 
 ---
 
@@ -55,4 +54,3 @@ An autonomous Python & C++ suite for PC that provides native, direct integration
 2. Place `hidapi.dll`, Python scripts, and the `.bat` file into your working directory (e.g., `C:\ETS2_DualSense`).
 3. In Steam, right-click ETS 2 → Properties → Controller → Set to **"Disable Steam Input"**.
 4. Run **`start_ets2_dualsense.bat`**.
-5. Enable the generated UI mod in the in-game Mod Manager and assign your controls.
