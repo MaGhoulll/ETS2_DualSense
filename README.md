@@ -17,10 +17,10 @@
   * Переливающаяся волна крутящего момента при трогании с места.
   * Направленные удары при авариях и столкновениях.
 * **Светодиодная индикация:** Подсветка тачпада дублирует поворотники, аварийку, дальний свет, ручник, ретардер и статус двигателя; 5 нижних диодов показывают уровень топлива в баке.
-* **Нативные подписи кнопок:** Автоматически создаваемый мод интерфейса заменяет безликие «Кнопка 0..13» на реальные названия кнопок DualSense (`Крест`, `Квадрат`, `Круг`, `Треугольник`, `L1/R1` и т.д.).
 
 ### 📁 Структура файлов проекта:
-1. `scs-telemetry.dll` — плагин телеметрии (клавется в папку игры).
+1. `scs-telemetry.dll` — плагин телеметрии (кладется в папку игры). Для работы телеметрии скачайте плагин `scs-telemetry.dll` из официального репозитория 
+[RenCloud/scs-sdk-plugin](https://github.com/RenCloud/scs-sdk-plugin/releases) и поместите его в папку с игрой.
 2. `hidapi.dll` — драйвер HID-связи с геймпадом.
 3. `requirements.txt` — зависимости Python (`pydualsense`, `truck-telemetry`, `psutil`).
 4. `config_patcher.py` — авто-патчер мертвых зон и кривых профиля `controls.sii` + генератор UI-мода.
@@ -49,7 +49,6 @@ An autonomous Python & C++ suite for PC that provides native, direct integration
   * Launch torque wave when pulling away from a standstill.
   * Directional crash impacts.
 * **LED Telemetry:** Lightbar reflects turn signals, hazard lights, high beams, parking brake, retarder, and engine status; lower LEDs show fuel level.
-* **Native UI Labels:** Automatically generates an in-game mod replacing generic button numbers with real DualSense button names.
 
 ### 🛠 Installation & Setup:
 1. Place `scs-telemetry.dll` into `...\Euro Truck Simulator 2\bin\win_x64\plugins\`.
