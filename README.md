@@ -19,9 +19,10 @@
 * **Светодиодная индикация:** Подсветка тачпада дублирует поворотники, аварийку, дальний свет, ручник, ретардер и статус двигателя; 5 нижних диодов показывают уровень топлива в баке.
 
 ### 📁 Структура файлов проекта:
-1. `scs-telemetry.dll` — плагин телеметрии (кладется в папку игры). Для работы телеметрии скачайте плагин `scs-telemetry.dll` из официального репозитория 
-[RenCloud/scs-sdk-plugin](https://github.com/RenCloud/scs-sdk-plugin/releases) и поместите его в папку с игрой.
+1. `scs-telemetry.dll` — плагин телеметрии (кладется в папку игры). 
+Для работы телеметрии скачайте плагин `scs-telemetry.dll` из официального репозитория [RenCloud/scs-sdk-plugin](https://github.com/RenCloud/scs-sdk-plugin/releases) и поместите его в папку с игрой.
 2. `hidapi.dll` — драйвер HID-связи с геймпадом.
+**[libusb/hidapi](https://github.com/libusb/hidapi)** — Кроссплатформенная библиотека для низкоуровневой работы с HID-устройствами (DualSense).
 3. `requirements.txt` — зависимости Python (`pydualsense`, `truck-telemetry`, `psutil`).
 4. `config_patcher.py` — авто-патчер мертвых зон и кривых профиля `controls.sii` + генератор UI-мода.
 5. `dualsense_ets2.py` — главное ядро телеметрии, триггеров и стерео-вибрации.
@@ -29,7 +30,7 @@
 
 ### 🛠 Установка и настройка:
 1. **Плагин игры:** Скопируйте файл `scs-telemetry.dll` в папку `...\Euro Truck Simulator 2\bin\win_x64\plugins\` (если папки нет — создайте её).
-2. **Файлы скрипта:** Положите `hidapi.dll`, `requirements.txt`, `config_patcher.py`, `dualsense_ets2.py` и `start_ets2_dualsense.bat` в общую рабочую папку (например, `C:\ETS2_DualSense`).
+2. **Файлы скрипта:** Положите `hidapi.dll`, `requirements.txt`, `config_patcher.py`, `dualsense_ets2.py` и `start_ets2_dualsense.bat` в общую рабочую папку (например, `C:\ETS2_DualSense`). 
 3. **Настройки Steam:** Откройте Библиотеку Steam → ПКМ по ETS 2 → Свойства → Контроллер → Выберите **«Отключить систему ввода Steam»**.
 4. **Запуск:** Подключите геймпад и запустите **`start_ets2_dualsense.bat`**.
 
