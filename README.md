@@ -226,10 +226,10 @@ When Steam Input is disabled, Euro Truck Simulator 2 addresses the DualSense via
 
 ### Support the Project / Поддержать проект
 
-If you find this project useful and want to support future updates, you can support the author on Boosty:
-Если проект оказался вам полезен и вы хотите поддержать разработку обновлений:
+If you find this project useful, you can support the author on Boosty:
+Если проект оказался вам полезен и вы хотите поддержать автора:
 
-* **[Support on Boosty / Поддержать на Boosty](https://boosty.to/)** *(insert your link here / вставьте вашу ссылку)*
+* **[Support on Boosty / Поддержать на Boosty](https://boosty.to/maghoul/donate/)**
 
 ---
 
