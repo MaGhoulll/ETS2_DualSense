@@ -1,3 +1,0 @@
-pydualsense>=0.7.0
-truck-telemetry>=0.0.3
-psutil>=5.9.0
